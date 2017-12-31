@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostNumeric_UblasConan(ConanFile):
     name = "boost_numeric_ublas"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-numeric_ublas"
+    url = "https://github.com/bincrafters/conan-boost_numeric_ublas"
 
     lib_short_names = ["ublas"]
     is_header_only = True
