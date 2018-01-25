@@ -8,7 +8,8 @@ class BoostNumeric_UblasConan(ConanFile):
     name = "boost_numeric_ublas"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_numeric_ublas"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["ublas"]
     is_header_only = True
 
