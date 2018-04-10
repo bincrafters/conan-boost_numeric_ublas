@@ -15,7 +15,6 @@ class BoostNumeric_UblasConan(ConanFile):
     def package_id_additional(self):
         self.info.header_only()
 
-    # TODO: utility
     requires = (
         "boost_concept_check/1.67.0@bincrafters/testing",
         "boost_config/1.67.0@bincrafters/testing",
