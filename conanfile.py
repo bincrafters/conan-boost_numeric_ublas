@@ -4,7 +4,7 @@
 from conans import python_requires
 
 
-base = python_requires("boost_base/1.67.0@bincrafters/stable")
+base = python_requires("boost_base/1.67.0@bincrafters/testing")
 
 class BoostNumeric_UblasConan(base.BoostBaseConan):
     name = "boost_numeric_ublas"
